@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import QRCode from 'react-qr-code'
+import { useState } from 'react';
+import QRCode from 'react-qr-code';
 
-export default function QRCodeGenerator() {
-  const [inputValue, setInputValue] = useState('')
-  const [qrValue, setQrValue] = useState('')
+function QRCodeGenerator() {
+  const [inputValue, setInputValue] = useState('');
+  const [qrValue, setQrValue] = useState('');
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value)
+    setInputValue(e.target.value);
   }
 
   const handleSubmit = (e) => {
@@ -52,3 +52,4 @@ export default function QRCodeGenerator() {
   )
 }
 
+export default QRCodeGenerator;
