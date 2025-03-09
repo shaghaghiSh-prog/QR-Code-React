@@ -1,4 +1,5 @@
-import QRCodeGenerator from './components/QRCodeGenerator.jsx';
+import QRCodeGenerator from "./Components/QRCodeGenerator";
+
 
  function Home() {
   return (
